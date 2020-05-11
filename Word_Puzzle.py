@@ -35,8 +35,6 @@ def display_puzzle_string(puzzle,answer):
         print(puzzle[num], " ", end="")
         num=num+1
 
-
-
 def get_guess(num_guesses):
     # user asked to enter the letter
     print("\nGuess a letter (", num_guesses, "guesses are remaining):", end="")
@@ -73,11 +71,6 @@ def update_puzzle_string(puzzle,answer,guess):
         
     return updated
 
-
-
-
-
-
 def play_game(puzzle,answer):
     run = True
 
@@ -103,10 +96,6 @@ def play_game(puzzle,answer):
             run = False
     return is_win
 
-
-
-
-
 # Main function
 def main():
     # For genereating a random number between 0 and 5
@@ -119,7 +108,6 @@ def main():
     #printing Instructions
     
     display_instructions()
-
 
 
     #making puzzle list with "_"
